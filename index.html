@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>    
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Condiment|Lato|Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="title-logo" class="img-responsive" src="images/Logo_blue.jpg" alt="My logo">
+        </div>
+        <div class="col-md-6 text-right">
+          <h1 class="title-super text-thin">Aleksa K</h1>
+          <h3>Front-End Developer</h3>
+          <!--<p>“Knowledge, like air, is vital to life. Like air, no one should be denied it.” -Alan Moore </p>-->
+          <div id="quotes">
+            <p>“Unless you try to do something beyond what you have already mastered, you will never grow.” ― Ronald E. Osborn</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/wd_1140.jpg" alt="Main image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div id="fw" class="row text-center">
+        <div class="col-md-4">
+          <img id="img-resume" class="img-responsive center" src="images/me_sq.jpg" data-toggle="modal" data-target="#project1" alt="Project image">
+          <h3 class="text-uppercase">Interactive Resume</h3>
+          <p><a href="http://github.com" data-toggle="tooltip" title="Future project!">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <div class="bw-wrap">
+            <img id="img-game" class="img-responsive center" src="images/arcade_game_bw_sq.jpg" data-toggle="modal" data-target="#project2" alt="Project image">
+          </div>
+          <!--<span class="clr-wrap">
+            <img id="img-game" class="img-responsive" src="images/arcade_game.jpg" data-toggle="modal" data-target="#project2" alt="Project image">
+          </span>-->
+          <h3 class="text-uppercase">Classic Arcade Game</h3>
+          <p><a href="http://github.com" data-toggle="tooltip" title="Future project!">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img id="img-map" class="img-responsive center" src="images/chicago-map_sq.jpg" data-toggle="modal" data-target="#project3" alt="Project image">
+          <h3 class="text-uppercase">Neighborhood Map</h3>
+          <p><a href="http://github.com" data-toggle="tooltip" title="Future project!">Link to project</a></p>
+        </div>
+      </div>
+      </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Interactive Resume</h4>
+          </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/puppy.jpg" alt="Project image">
+        My goal is develop an interactive resume application that reads my resume content from a JSON file and dynamically displays that content. Use functions, conditionals, and control structures to compose the content that will display on the resume (JavaScript and jQuery).
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="ModalLabel1">Classic Arcade Game</h4>
+          </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
+        For this project using visual assets and a game loop engine I must recreate a classic arcade game.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="ModalLabel2">Neighborhood Map</h4>
+          </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
+        In this project I will develop an application featuring a map of a place I would like to visit and add additional functionality to this application, including map markers, and a listview to support simple browsing of all locations, pprovide additional information about each locations, such as StreetView images, Wikipedia articles, etc. This is going to be FUN!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="tooltip top" role="tooltip">
+      <div class="tooltip-arrow">
+      </div>
+    </div>
+
+    <div id="footer-bg">
+        <footer class="row">
+          <div class="col-md-12">
+            <div id="social">
+              <a href="https://twitter.com" class="zocial-twitter">Twitter</a>
+              <a href="https://www.facebook.com" class="zocial-facebook">Facebook</a>
+              <a href="https://plus.google.com" class="zocial-googleplus">Google+</a>
+              <a href="http://digg.com" class="zocial-digg">Digg</a>
+            </div>
+          </div>
+        </footer>
+    </div>
+  </body>
+</html>
