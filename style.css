@@ -1,40 +1,16 @@
-@media only screen and (max-width: 320px) {
-	#title-logo {
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 2em;
+	}
+	#logo {
 		display: none;
 	}
-	h1 {
-	font-size: 24px; 
-	}
 }
-@media only screen and (max-width: 744px) {
-	#title-logo {
+/*@media only screen and (min-width: 401px) and (max-width: 744px) {
+	#logo {
 
-	}
-}
-/* @media (max-width: 744px) {
-	.col-md-6 {
- 	 width: 50%;	
-}
-*/
-@media only screen and (max-width: 630px) {
-	#fw {
-		float: left;
-		margin: 0;
-		position: relative;
-		width: 100%;
-	}
-}
-
-#fw {
-	float: left;
-	position: relative;
-	width: 100%;
-}
-/* 
-@media only screen and (max-width: 960px) {
-	.????? {
-		clear: left;
-		margin-left: 0;
 	}
 }
 */
@@ -44,27 +20,20 @@ body {
 	font-weight: 300;
 	padding: 0;
 	margin: 0;
-	background: url(backgroundimage.jpg) no-repeat center top;
+	background: url(images/backgroundimage.jpg) no-repeat center top;
 	width: auto;
 }
-/*.container {
-	display: flex;
-	flex-wrap: wrap;
-}*/
 
 #quotes {
-	background: linear-gradient(#60fcd2,#ff00ff);
+	background: linear-gradient(#0EB6BD,white);
 	border-radius: 100px;
 	box-shadow: 5px 5px 20px 0 black;
 	font-family: 'Condiment';
 	font-size: 2em;
-	/*margin-left: 20vh;*/
 	padding-top: 10px;
 	padding-right: 6px;
 	text-align: center;
 }
-
-
 
 hr { 
     display: block;
@@ -111,9 +80,13 @@ img.center {
 }
 
 .title-super {
-	font-size: 96px;
+	font-size: 6em;
 	font-family: 'Condiment';
 	letter-spacing: 3px;
+	margin-right: 16px;
+	text-shadow: 2px 3px 3px #000000;
+	color: white;
+	-webkit-text-stroke: 1px blue;
 }
 
 .text-center {
@@ -131,19 +104,21 @@ img.center {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
+	border: 10px solid rgb(189, 189, 189);
 }
 #img-game {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
+	border: 10px solid rgb(189, 189, 189);
 }
 #img-map {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
+	border-image: 4px;
+	border: 10px solid rgb(189, 189, 189);
 }
-
-@import url(http://weloveiconfonts.com/api/?family=zocial);
 
 /* zocial */
 [class*="zocial-"]:before {
@@ -153,10 +128,14 @@ img.center {
   text-shadow: 3px 3px 3px #aaa;
   width: 2em;
 }
+
 div#social {
 	line-height: 2em;
 	font-family: 'Lato', sans-serif;
+	padding-left: 4em;
+	font-size: 18px;
 }
+
 div#social a {
 	margin: 0 1em 0 0;
 	text-decoration: underline;
@@ -167,6 +146,6 @@ div#social a {
   padding-bottom: 1em;
   width: 100%;
   height: 227px;
-  background: url(city_bg.png);
+  background: url(images/city_bg.png);
   color: white;
 }
