@@ -2,7 +2,10 @@
 
 @media only screen and (max-width: 400px) {
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 1.5em;
 	}
 	#logo {
 		display: none;
@@ -79,7 +82,7 @@ img.center {
 	font-weight: 100;
 }
 
-.title-super {
+h1 {
 	font-size: 6em;
 	font-family: 'Condiment';
 	letter-spacing: 3px;
