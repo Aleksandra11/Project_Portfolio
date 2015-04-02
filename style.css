@@ -33,7 +33,7 @@ body {
 	box-shadow: 5px 5px 20px 0 black;
 	font-family: 'Condiment';
 	font-size: 2em;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-right: 6px;
 	text-align: center;
 }
@@ -90,6 +90,10 @@ h1 {
 	text-shadow: 2px 3px 3px #000000;
 	color: white;
 	-webkit-text-stroke: 1px blue;
+}
+
+h3 {
+	font-family: 'Pacifico';
 }
 
 .text-center {
