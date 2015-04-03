@@ -1,8 +1,13 @@
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
+@media only screen and (min-width: 701px) {
+	h1 {
+		font-size: 6em;
+	}
+}
 @media only screen and (max-width: 400px) {
 	h1 {
-		font-size: 3em;
+		font-size: 4em;
 	}
 	h3 {
 		font-size: 1.5em;
@@ -10,13 +15,20 @@
 	#logo {
 		display: none;
 	}
-}
-/*@media only screen and (min-width: 401px) and (max-width: 744px) {
-	#logo {
-
+	p {
+		font-size: 14px;
+	}
+	#contact {
+		font-size: 8px;
 	}
 }
-*/
+
+@media only screen and (min-width: 401px) and (max-width: 990px) {
+	#title-logo {
+		width: 90px;
+	}
+}
+
 body {
 	font-family: 'Lato', sans-serif;
 	color: #272622;
@@ -28,7 +40,7 @@ body {
 }
 
 #quotes {
-	background: linear-gradient(#0EB6BD,white);
+	background: linear-gradient(#528FBB,white);
 	border-radius: 100px;
 	box-shadow: 5px 5px 20px 0 black;
 	font-family: 'Condiment';
@@ -83,7 +95,6 @@ img.center {
 }
 
 h1 {
-	font-size: 6em;
 	font-family: 'Condiment';
 	letter-spacing: 3px;
 	margin-right: 16px;
@@ -137,10 +148,10 @@ h3 {
 }
 
 div#social {
-	line-height: 2em;
+	line-height: 4em;
 	font-family: 'Lato', sans-serif;
 	padding-left: 4em;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 div#social a {
@@ -155,4 +166,21 @@ div#social a {
   height: 227px;
   background: url(https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/city_bg.png);
   color: white;
+}
+
+#contact {
+	display: inline;
+	margin: auto;
+	overflow: hidden;
+	padding-left: 4em;
+	color: rgb(76, 74, 74);
+}
+
+#contact h4 {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+#contact a {
+	font-size: 20px;
 }
