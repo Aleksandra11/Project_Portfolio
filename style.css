@@ -1,13 +1,13 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url("http://weloveiconfonts.com/api/?family=zocial");
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 991px) {
 	h1 {
 		font-size: 6em;
 	}
 }
 @media only screen and (max-width: 400px) {
 	h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	h3 {
 		font-size: 1.5em;
@@ -21,11 +21,17 @@
 	#contact {
 		font-size: 8px;
 	}
+	#social {
+		font-size: 11px;
+	}
 }
 
 @media only screen and (min-width: 401px) and (max-width: 990px) {
 	#title-logo {
 		width: 90px;
+	}
+	h1 {
+		font-size: 4em;
 	}
 }
 
@@ -70,7 +76,7 @@ img {
 	filter: alpha(opacity=100);
 }
 
-img.center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +89,6 @@ img.center {
 }
 #fw img:hover {
 	cursor: pointer;
-	cursor: hand;
 }
 
 .text-muted {
@@ -134,7 +139,6 @@ h3 {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
-	border-image: 4px;
 	border: 10px solid rgb(189, 189, 189);
 }
 
@@ -147,14 +151,13 @@ h3 {
   width: 2em;
 }
 
-div#social {
+#social {
 	line-height: 4em;
 	font-family: 'Lato', sans-serif;
 	padding-left: 4em;
-	font-size: 14px;
 }
 
-div#social a {
+#social a {
 	margin: 0 1em 0 0;
 	text-decoration: underline;
 }
@@ -170,13 +173,12 @@ div#social a {
 
 #contact {
 	display: inline;
-	margin: auto;
 	overflow: hidden;
 	padding-left: 4em;
 	color: rgb(76, 74, 74);
 }
 
-#contact h4 {
+h4 {
 	display: inline-block;
 	padding-right: 1em;
 }
