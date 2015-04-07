@@ -1,10 +1,5 @@
 @import url("http://weloveiconfonts.com/api/?family=zocial");
 
-@media only screen and (min-width: 991px) {
-	h1 {
-		font-size: 6em;
-	}
-}
 @media only screen and (max-width: 400px) {
 	h1 {
 		font-size: 3em;
@@ -32,6 +27,12 @@
 	}
 	h1 {
 		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	h1 {
+		font-size: 6em;
 	}
 }
 
@@ -73,7 +74,7 @@ img {
 	margin-right: 10px;
 	margin-bottom: 20px;
 	opacity: 1;
-	filter: alpha(opacity=100);
+	filter: alpha(opacity=100); /* IE8 and lower */
 }
 
 .center {
@@ -84,10 +85,7 @@ img {
 
 #fw img:hover {
 	opacity: 0.3;
-	filter: alpha(opacity=30);
-	background: url();
-}
-#fw img:hover {
+	filter: alpha(opacity=30); /* IE8 and lower */
 	cursor: pointer;
 }
 
@@ -129,12 +127,14 @@ h3 {
 	border-radius: 50em;
 	border: 10px solid rgb(189, 189, 189);
 }
+
 #img-game {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
 	border: 10px solid rgb(189, 189, 189);
 }
+
 #img-map {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
