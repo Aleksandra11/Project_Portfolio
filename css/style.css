@@ -154,7 +154,7 @@ h3 {
 #social {
 	line-height: 4em;
 	font-family: 'Lato', sans-serif;
-	padding-left: 4em;
+	padding-left: 2em;
 }
 
 #social a {
@@ -174,7 +174,7 @@ h3 {
 #contact {
 	display: inline;
 	overflow: hidden;
-	padding-left: 4em;
+	padding-left: 2em;
 	color: rgb(76, 74, 74);
 }
 
