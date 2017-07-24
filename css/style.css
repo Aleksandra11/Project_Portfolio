@@ -44,6 +44,7 @@ body {
 	margin: 0;
 	background: url(https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/backgd.jpg) no-repeat center top;
 	width: auto;
+	background-attachment: fixed;
 }
 
 #quotes {
