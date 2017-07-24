@@ -7,7 +7,7 @@
 	h3 {
 		font-size: 1.5em;
 	}
-	#logo {
+	#title-logo {
 		display: none;
 	}
 	p {
@@ -22,6 +22,9 @@
 }
 
 @media only screen and (min-width: 401px) and (max-width: 990px) {
+	#title-logo {
+		max-width: 20%;
+	}
 	h1 {
 		font-size: 4em;
 	}
