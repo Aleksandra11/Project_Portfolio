@@ -83,7 +83,7 @@ img {
   margin-right: auto;
 }
 
-#fw img:hover {
+#fw img:hover, #fw_next img:hover {
 	opacity: 0.3;
 	filter: alpha(opacity=30); /* IE8 and lower */
 	cursor: pointer;
