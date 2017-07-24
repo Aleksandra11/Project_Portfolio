@@ -116,6 +116,7 @@ h3 {
 
 #title-logo {
 	margin-top: 20px;
+	max-width: 40%;
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
