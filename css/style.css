@@ -210,13 +210,12 @@ h4 {
 
 .page-featured {
 	padding-top: 2em;
-  padding-bottom: 1em;
-  width: 100%;
-  height: 227px;
-  /* background: url(../images/city_bg.png); */
-  background: url(https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/city_bg.png);
-  color: white;
-  opacity: 0.8;
+  	padding-bottom: 1em;
+  	width: 100%;
+  	height: 227px;
+  	background: url(https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/city_bg.png);
+  	color: white;
+  	opacity: 0.8;
 }
 
 h5 {
