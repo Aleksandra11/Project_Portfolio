@@ -50,34 +50,34 @@
       <div id="fw" class="row text-center">
         <div class="col-md-4">
           <img id="img-resume" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/me_sq.jpg" data-toggle="modal" data-target="#project1" alt="Project image">
-          <h3>Interactive Resume</h3>
-          <p><a href="http://Aleksandra11.github.io/Project_Resume/" data-toggle="tooltip" title="Resume project!">Link to project</a></p>
+          <!--<h3>Interactive Resume</h3>-->
+          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Resume/" data-toggle="tooltip" title="Resume project!">Interactive Resume</a></p>
         </div>
         <div class="col-md-4">
           <div class="bw-wrap">
             <img id="img-game" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/Mgame.jpg" data-toggle="modal" data-target="#project2" alt="Project image">
           </div>
-          <h3>Classic Arcade Game</h3>
-          <p><a href="http://Aleksandra11.github.io/Project_Arcade_Game/" data-toggle="tooltip" title="Game project!">Link to project</a></p>
+          <!--<h3>Classic Arcade Game</h3>-->
+          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Arcade_Game/" data-toggle="tooltip" title="Game project!">Classic Arcade Game</a></p>
         </div>
         <div class="col-md-4">
           <img id="img-map" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/chicago-map_sq.jpg" data-toggle="modal" data-target="#project3" alt="Project image">
-          <h3>Neighborhood Map</h3>
-          <p><a href="http://aleksandra11.github.io/Project_Neighborhood_map/" data-toggle="tooltip" title="Map project!">Link to project</a></p>
+          <!--<h3>Neighborhood Map</h3>-->
+          <p><a class="Link" href="http://aleksandra11.github.io/Project_Neighborhood_map/" data-toggle="tooltip" title="Map project!">Neighborhood Map</a></p>
         </div>
       </div>
       <div id="fw_next" class="row text-center">
         <div class="col-md-6">
           <div class="bw-wrap">
-            <img id="img-game" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/evApp300.png" data-toggle="modal" data-target="#project2" alt="Project image">
+            <img id="img-game" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/evApp300.png" data-toggle="modal" data-target="#project4" alt="Project image">
           </div>
-          <h3>Meet-Up Event Planner</h3>
-          <p><a href="http://Aleksandra11.github.io/Event-Planner/" data-toggle="tooltip" title="Meet-Up Event Planner">Link to project</a></p>
+          <!--<h3>Meet-Up Event Planner</h3>-->
+          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Resume/" data-toggle="tooltip" title="Resume project!">Event Planning Application</a></p>
         </div>
         <div class="col-md-6">
-          <img id="img-map" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/water_dropp.jpg" data-toggle="modal" data-target="#project3" alt="Project image">
-          <h3>Transportation App</h3>
-          <p><a href="http://aleksandra11.github.io/Project_Neighborhood_map/" data-toggle="tooltip" title="Transportation application">Link to project</a></p>
+          <img id="img-map" class="img-responsive center" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/water_dropp.jpg" data-toggle="modal" data-target="#project5" alt="Project image">
+          <!--<h3>Transportation App</h3>-->
+          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Resume/" data-toggle="tooltip" title="Resume project!">Transportation Application</a></p>
         </div>
       </div>
       <div id="footer-bg">
@@ -100,7 +100,7 @@
         </footer>
       </div>
 
-  <!-- Modal -->
+  <!-- Modals -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -109,7 +109,7 @@
           </div>
         <div class="modal-body">
           <img class="img-responsive" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/puppy.jpg" alt="Project image">
-        My goal is to develop an interactive resume application that reads my resume content from a JSON file and dynamically displays that content. Use functions, conditionals, and control structures to compose the content that will display on the resume (JavaScript and jQuery).
+        This is an interactive resume application that reads the content from a JSON file and dynamically displays it (JavaScript and jQuery).
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -117,6 +117,7 @@
         </div>
       </div>
     </div>
+    <!--project2 -->
     <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -125,14 +126,15 @@
           </div>
         <div class="modal-body">
           <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
-        For this project I must recreate a classic arcade game using visual assets and a game loop engine.
+        For this project I recreated a classic arcade game adding a number of entities including the player characters and enemies (used visual assets and a game loop engine).
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
+    <!--project3 -->
     <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -141,14 +143,48 @@
           </div>
         <div class="modal-body">
           <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
-        In this project I will develop an application featuring a map of a place I would like to visit and add additional functionality to this application, including map markers, and a listview to support simple browsing of all locations, pprovide additional information about each locations, such as StreetView images, Wikipedia articles, etc. This is going to be FUN!
+        This is a single-page application featuring a map of a cool places and additional functionality, including map markers, listview to support simple browsing of all locations. I implemented third-party APIs to provide additional information about each of locations (StreetView images, Wikipedia info, etc).
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
+    <!--project4 -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="ModalLabel2">Meet-up Event Planner</h4>
+          </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
+        This is a single-page application featuring a map of a cool places and additional functionality, including map markers, listview to support simple browsing of all locations. I implemented third-party APIs to provide additional information about each of locations (StreetView images, Wikipedia info, etc).
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--project5 -->
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="ModalLabel2">Transportation Application</h4>
+          </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com/g/555/300" alt="Project image">
+        This application is focused on beter user experience in challenging connection scenarios with poor or no internet connection. The app works both online and offline, and loads the data through cache. 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="tooltip top" role="tooltip">
       <div class="tooltip-arrow">
       </div>
