@@ -224,3 +224,91 @@ h5 {
 	line-height: 130%;
 	text-align: center;
 }
+/*****************/
+
+.Link {
+  padding: 0.1em 0.2em 0;
+  margin: 0 -0.1em;
+  position: relative;
+  font-family: 'Pacifico';
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: 500;
+}
+
+.Link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.Link:hover::before {
+  opacity: 0.2;
+}
+
+.Link:active::before {
+  opacity: 0.2;
+  transition-duration: 0s;
+}
+
+.Icon {
+  width: 1rem;
+  order: -1;
+  transition: all 0.2s;
+  stroke-dasharray: 0, 20;
+  /*second value is the gaps length */
+  /*sfirst value is the line length */
+  stroke-dashoffset: -14.142;
+  /*start point for this culculations */
+}
+
+.Icon path {
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.Input:hover + .Icon {
+  stroke-dasharray: 28.284, 20;
+  stroke-dashoffset: 0;
+}
+
+/* .Line {
+  width: 100%;
+  height: 2px;
+  stroke: hsl(0, 0%, 75%);
+  stroke-width: 2px;
+  margin-left: 1rem;
+}
+
+.Line .focus,
+.Line .valid,
+.Line .invalid {
+  transition: all 0.2s;
+  stroke-dasharray: 0, 20;
+  stroke-dashoffset: -20;
+}
+.Line .focus {
+  stroke: black;
+}
+.Line .valid {
+  stroke: hsl(166, 72%, 40%);
+}
+.Line .invalid {
+  stroke: hsl(0, 100%, 40%);
+}
+
+.Input:focus ~ .Line .focus,
+.Input:valid ~ .Line .valid,
+.Input[data-touched]:invalid ~ .Line .invalid {
+  stroke-dasharray: 40, 0;
+  stroke-dashoffset: 0;
+}
+*/
