@@ -25,7 +25,7 @@
 }
 
 @media only screen and (min-width: 401px) and (max-width: 990px) {
-	#title-logo {
+	#logo {
 		max-width: 20%;
 		display: inline-block;
 	}
@@ -36,7 +36,7 @@
 
 @media only screen and (min-width: 991px) {
 	h1 {
-		font-size: 6em;
+		font-size: 4em;
 	}
 	#title-logo {
 		max-width: 40%;
