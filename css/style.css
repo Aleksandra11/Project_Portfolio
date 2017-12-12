@@ -1,41 +1,5 @@
 @import url("http://weloveiconfonts.com/api/?family=zocial");
 
-@media only screen and (max-width: 400px) {
-	h1 {
-		font-size: 3em;
-	}
-	h3 {
-		font-size: 1.5em;
-	}
-	#logo {
-		display: none;
-	}
-	p {
-		font-size: 14px;
-	}
-	#contact {
-		font-size: 8px;
-	}
-	#social {
-		font-size: 11px;
-	}
-}
-
-@media only screen and (min-width: 401px) and (max-width: 990px) {
-	#title-logo {
-		width: 90px;
-	}
-	h1 {
-		font-size: 4em;
-	}
-}
-
-@media only screen and (min-width: 991px) {
-	h1 {
-		font-size: 6em;
-	}
-}
-
 body {
 	font-family: 'Lato', sans-serif;
 	color: #272622;
@@ -185,4 +149,40 @@ h4 {
 
 #contact a {
 	font-size: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	#logo {
+		display: none;
+	}
+	p {
+		font-size: 14px;
+	}
+	#contact {
+		font-size: 8px;
+	}
+	#social {
+		font-size: 11px;
+	}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 990px) {
+	#title-logo {
+		width: 90px;
+	}
+	h1 {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (min-width: 991px) {
+	h1 {
+		font-size: 6em;
+	}
 }
