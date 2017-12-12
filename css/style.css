@@ -1,51 +1,5 @@
 @import url("http://weloveiconfonts.com/api/?family=zocial");
 
-@media only screen and (max-width: 400px) {
-	h1 {
-		font-size: 3em;
-	}
-	h3 {
-		font-size: 1.5em;
-	}
-	#title-logo {
-		display: none;
-	}
-	p {
-		font-size: 14px;
-	}
-	#contact {
-		font-size: 8px;
-	}
-	#social {
-		font-size: 11px;
-	}
-	h5 {
-		font-size: 1.2em;
-	}
-	.page-featured {
-		padding-top: 0.5em
-	}
-}
-
-@media only screen and (min-width: 401px) and (max-width: 990px) {
-	#logo {
-		max-width: 20%;
-		display: inline-block;
-	}
-	h1 {
-		font-size: 4em;
-	}
-}
-
-@media only screen and (min-width: 991px) {
-	h1 {
-		font-size: 4em;
-	}
-	#title-logo {
-		max-width: 40%;
-	}
-}
-
 body {
 	font-family: 'Lato', sans-serif;
 	color: #272622;
@@ -283,35 +237,48 @@ h5 {
   stroke-dashoffset: 0;
 }
 
-/* .Line {
-  width: 100%;
-  height: 2px;
-  stroke: hsl(0, 0%, 75%);
-  stroke-width: 2px;
-  margin-left: 1rem;
+@media only screen and (max-width: 400px) {
+	h1 {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	#title-logo {
+		display: none;
+	}
+	p {
+		font-size: 14px;
+	}
+	#contact {
+		font-size: 8px;
+	}
+	#social {
+		font-size: 11px;
+	}
+	h5 {
+		font-size: 1.2em;
+	}
+	.page-featured {
+		padding-top: 0.5em
+	}
 }
 
-.Line .focus,
-.Line .valid,
-.Line .invalid {
-  transition: all 0.2s;
-  stroke-dasharray: 0, 20;
-  stroke-dashoffset: -20;
-}
-.Line .focus {
-  stroke: black;
-}
-.Line .valid {
-  stroke: hsl(166, 72%, 40%);
-}
-.Line .invalid {
-  stroke: hsl(0, 100%, 40%);
+@media only screen and (min-width: 401px) and (max-width: 990px) {
+	#logo {
+		max-width: 20%;
+		display: inline-block;
+	}
+	h1 {
+		font-size: 4em;
+	}
 }
 
-.Input:focus ~ .Line .focus,
-.Input:valid ~ .Line .valid,
-.Input[data-touched]:invalid ~ .Line .invalid {
-  stroke-dasharray: 40, 0;
-  stroke-dashoffset: 0;
+@media only screen and (min-width: 991px) {
+	h1 {
+		font-size: 4em;
+	}
+	#title-logo {
+		max-width: 40%;
+	}
 }
-*/
