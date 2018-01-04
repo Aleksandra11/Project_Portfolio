@@ -60,7 +60,7 @@ img {
   margin-right: auto;
 }
 
-#fw img:hover, #fw_next img:hover, #fw_next_1 img:hover {
+.fw img:hover, .fw_next img:hover, .fw_next_1 img:hover {
 	opacity: 0.3;
 	filter: alpha(opacity=30); /* IE8 and lower */
 	cursor: pointer;
@@ -99,6 +99,16 @@ h3 {
 	display: inline-block;
 }
 
+.exmpls {
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
+	border: 10px solid rgb(189, 189, 189);
+}
+.pos {
+	position: static;
+}
+/*
 #img-resume {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
@@ -119,6 +129,7 @@ h3 {
 	border-radius: 50em;
 	border: 10px solid rgb(189, 189, 189);
 }
+*/
 
 /* zocial */
 [class*="zocial-"]:before {
@@ -181,7 +192,34 @@ h5 {
 	line-height: 130%;
 	text-align: center;
 }
-/*****************/
+/**************/
+/*.aling-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.aling-right {
+  float: right;
+  margin-left: 20px;
+}
+*/
+.slide-in {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
+/*******************/
 
 .Link {
   padding: 0.1em 0.2em 0;
