@@ -33,7 +33,7 @@
       </div>
       <div class="row">
         <div class="col-md-12 page-featured">
-          <h5>Hi, I'm an independent front-end web developer, with passion in building engaging, exceptional user experience and high quality responsive websites. I'm currently doing an online course on full-stack development to touch-up my skills.</h5>
+          <h5>Hi, I'm a front-end web developer with passion in building engaging, exceptional user experience and high quality responsive websites. I'm currently taking an online course on full-stack development to touch-up my skills.</h5>
         </div>
       </div>
       <div class="row">
@@ -43,7 +43,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
+          <h2 class="text-muted">Projects and Work</h2>
         </div>
       </div>
       <div class="row text-center fw">
@@ -59,10 +59,9 @@
           <!--<h3>Meet-Up Event Planner</h3>-->
           <p><a class="Link" href="https://aleksandra11.github.io/Event-Planner/#/" data-toggle="tooltip" title="Event App">Event Planning Application</a></p>
         </div>
-        <div class="col-md-4 pos">
-          <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/water_dropp.jpg" data-toggle="modal" data-target="#project5" alt="Project image">
-          <!--<h3>Transportation App</h3>-->
-          <p><a class="Link" href="https://www.udacity.com/course/javascript-promises--ud898" data-toggle="tooltip" title="Transportation App">Transportation Application</a></p>
+         <div class="col-md-4 pos">
+            <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/outsura12-min.png" data-toggle="modal" data-target="#project7" alt="Project image">
+          <p><a class="Link" href="https://outsura.com" data-toggle="tooltip" title="Outsura">Outsura</a></p>
         </div>
       </div>
       <div class="row text-center fw_next">
@@ -72,12 +71,11 @@
           <p><a class="Link" href="http://aleksandra11.github.io/Project_Neighborhood_map/" data-toggle="tooltip" title="Map project!">Neighborhood Map</a></p>
         </div>
         <div class="col-md-6 pos">
-          <div class="bw-wrap">
-            <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/Mgame.jpg" data-toggle="modal" data-target="#project2" alt="Project image">
-          </div>
-          <!--<h3>Classic Arcade Game</h3>-->
-          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Arcade_Game/" data-toggle="tooltip" title="Game project!">Classic Arcade Game</a></p>
+          <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/water_dropp.jpg" data-toggle="modal" data-target="#project5" alt="Project image">
+          <!--<h3>Transportation App</h3>-->
+          <p><a class="Link" href="https://www.udacity.com/course/javascript-promises--ud898" data-toggle="tooltip" title="Transportation App">Transportation Application</a></p>
         </div>
+        
       </div>
       <div class="row text-center fw_next_1">
         <div class="col-md-6 pos">
@@ -90,9 +88,12 @@
           </div>
           <p><a class="Link" href="http://Aleksandra11.github.io/Project_Arcade_Game/" data-toggle="tooltip" title="Game project!">Classic Arcade Game</a></p>
         </div>-->
-                <div class="col-md-6 pos">
-            <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/outsura12-min.png" data-toggle="modal" data-target="#project7" alt="Project image">
-          <p><a class="Link" href="https://outsura.com" data-toggle="tooltip" title="Outsura">Outsura</a></p>
+        <div class="col-md-6 pos">
+          <div class="bw-wrap">
+            <img class="slide-in img-responsive center exmpls" src="https://raw.githubusercontent.com/Aleksandra11/Project_Portfolio/master/images/Mgame.jpg" data-toggle="modal" data-target="#project2" alt="Project image">
+          </div>
+          <!--<h3>Classic Arcade Game</h3>-->
+          <p><a class="Link" href="http://Aleksandra11.github.io/Project_Arcade_Game/" data-toggle="tooltip" title="Game project!">Classic Arcade Game</a></p>
         </div>
       </div>
       <div class="row">
@@ -272,12 +273,12 @@
     slideImages.forEach(slideImage => {
       //half way through the image
       const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
-      console.log(slideImage.height/2);
-      console.log(window.scrollY);
-      console.log(window.innerHeight);
+      //console.log(slideImage.height/2);
+      //console.log(window.scrollY);
+      //console.log(window.innerHeight);
       //bottom of the image
       const imageBottom = slideImage.offsetTop + slideImage.height;
-      console.log("OffsetTop "+slideImage.offsetTop);
+      //console.log("OffsetTop "+slideImage.offsetTop);
       const isHalfShown = slideInAt > slideImage.offsetTop;
       const isNotScrolledPast = window.scrollY < imageBottom;
       if (isHalfShown && isNotScrolledPast) {
