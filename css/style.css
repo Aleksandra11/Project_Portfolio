@@ -108,28 +108,6 @@ h3 {
 .pos {
 	position: static;
 }
-/*
-#img-resume {
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	border-radius: 50em;
-	border: 10px solid rgb(189, 189, 189);
-}
-
-#img-game {
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	border-radius: 50em;
-	border: 10px solid rgb(189, 189, 189);
-}
-
-#img-map {
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	border-radius: 50em;
-	border: 10px solid rgb(189, 189, 189);
-}
-*/
 
 /* zocial */
 [class*="zocial-"]:before {
@@ -220,6 +198,46 @@ h5 {
   transform: translateX(0%) scale(1);
 }
 /*******************/
+.wrapper{
+	font-family: sans-serif;
+	margin: 0 auto;
+	position: static;
+}
+img {
+	transition: .5s ease;
+}
+.content{
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.content a{
+	font-size: 16px;
+	display: block;
+	background-color: #ff771d;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	color:#fff;
+}
+.overlay{
+	opacity: 0;
+	position: relative;
+}
+.wrapper:hover img{
+	opacity: .5;
+}
+
+.wrapper:hover .overlay {
+	opacity: 1;
+}
+
+/*****************/
 
 .Link {
   padding: 0.1em 0.2em 0;
