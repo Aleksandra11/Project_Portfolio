@@ -221,8 +221,7 @@ img {
 	display: block;
 	background-color: #ff771d;
 	text-align: center;
-	padding: 10px;
-	cursor: pointer;
+	text-decoration: none;
 	color:#fff;
 }
 .overlay{
