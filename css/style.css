@@ -148,6 +148,10 @@ h3 {
 h4 {
 	display: inline-block;
 	padding-right: 1em;
+	color: rgb(41, 37, 37);
+}
+p {
+	color: rgb(76, 74, 74);
 }
 
 #contact a {
@@ -300,7 +304,7 @@ img {
 
 @media only screen and (max-width: 400px) {
 	h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	h3 {
 		font-size: 1.5em;
@@ -331,13 +335,13 @@ img {
 		display: inline-block;
 	}
 	h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 }
 
 @media only screen and (min-width: 991px) {
 	h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	#title-logo {
 		max-width: 40%;
