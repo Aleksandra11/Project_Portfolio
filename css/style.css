@@ -299,6 +299,28 @@ img {
   stroke-dashoffset: 0;
 }
 
+#skills {
+    padding: 50px 15px;
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    text-align: center;
+}
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
 .text-muted {
     position: relative;
     display: inline-block;
