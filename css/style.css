@@ -185,4 +185,11 @@ h4 {
 	h1 {
 		font-size: 6em;
 	}
+	.page-featured p {
+		font-size: 18px;
+	}
+	.page-featured h4 {
+		font-family: 'Josefin Slab', serif;
+		font-size: 26px;
+	}
 }
