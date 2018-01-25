@@ -385,4 +385,11 @@ img {
 	#title-logo {
 		max-width: 40%;
 	}
+	.page-featured p {
+		font-size: 18px;
+	}
+	.page-featured h4 {
+		font-family: 'Josefin Slab', serif;
+		font-size: 26px;
+	}
 }
